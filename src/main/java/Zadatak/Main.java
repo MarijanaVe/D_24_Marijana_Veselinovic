@@ -73,6 +73,7 @@ public class Main {
         Thread.sleep(5000);
         driverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"cart_quantity_up_7_34_0_0\"]/span")));
 
+
         driver.quit();
 
 
